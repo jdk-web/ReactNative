@@ -1,0 +1,10 @@
+export default function App(){
+  const name='daekayo';
+  return (
+   <>
+     <Text>
+       my name is {name === 'daekayo' ? 'true' : 'false'} 
+     </Text>
+   </>
+  );
+}
