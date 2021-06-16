@@ -1,0 +1,18 @@
+* 디폴트
+const MyButton = props =>{
+    MyButton.defaultProps = { //디폴트
+        title : 'defaultButton',
+    };
+
+    return(
+        <TouchableOpacity onPress={()=>alert('a')}>
+            <Text style={{fontSize:24}}> {props.title}</Text>
+        </TouchableOpacity>
+    )
+}
+
+* 타입 및 필수
+MyButton.defaultProps = { //디폴트
+        title : 'defaultButton.number', // 숫자형, .string은 문자형
+        title2 : 'defaultButton.number.isRequired', // 숫자형, 필수 입력
+    };
