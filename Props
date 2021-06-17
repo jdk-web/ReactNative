@@ -16,3 +16,5 @@ MyButton.defaultProps = { //디폴트
         title : 'defaultButton.number', // 숫자형, .string은 문자형
         title2 : 'defaultButton.number.isRequired', // 숫자형, 필수 입력
     };
+
+- 타입 쓰기 위해서 설치 필요 : npm install prop -types
